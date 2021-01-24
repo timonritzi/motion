@@ -1,0 +1,324 @@
+
+
+.container-profile.profile-update {
+  display: flex;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+
+
+  .profile {
+    box-shadow: 1px 1px 20px -5px #AEAEAE;
+    display: flex;
+    background-color: white;
+    height: 90%;
+    width: 80%;
+    margin-top: 8%;
+
+    .content-left {
+      border-right: 1px rgba(0, 0, 0, 0.2) solid;
+      width: 25%;
+      height: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 20px;
+
+      .avatar-update {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        height: 35%;
+
+        img {
+          margin: 0;
+          padding: 0;
+          font-size: 16px;
+          font-family: "Helvetica", serif;
+          box-sizing: border-box;
+          height: 50%;
+          width: 50%;
+          margin: auto;
+          object-fit: cover;
+        }
+
+        .update-image {
+          border-radius: 1.875rem;
+          border: 1px rgba(0, 0, 0, 0.2) solid;
+          width: 7.5rem;
+          height: 2.5rem;
+          background: none;
+          cursor: pointer;
+          font-weight: bold;
+          -webkit-letter-spacing: 0.0625rem;
+          -moz-letter-spacing: 0.0625rem;
+          -ms-letter-spacing: 0.0625rem;
+          letter-spacing: 0.0625rem;
+          font-size: 0.625rem;
+          width: 150px;
+
+          appearance: button;
+          -webkit-writing-mode: horizontal-tb !important;
+          text-rendering: auto;
+          color: -internal-light-dark(black, white);
+          letter-spacing: normal;
+          word-spacing: normal;
+          text-transform: none;
+          text-indent: 0px;
+          text-shadow: none;
+          display: inline-block;
+          text-align: center;
+          align-items: flex-start;
+          cursor: default;
+          background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+          box-sizing: border-box;
+          margin: 0em;
+          font: 400 13.3333px Arial;
+          padding: 1px 6px;
+          border-width: 2px;
+          border-style: outset;
+          border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+          border-image: initial;
+        }
+
+      }
+
+      .delete-save-acc {
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        height: 22%;
+
+        button {
+          border-radius: 1.875rem;
+          border: 1px rgba(0, 0, 0, 0.2) solid;
+          width: 7.5rem;
+          height: 2.5rem;
+          background: none;
+          cursor: pointer;
+          font-weight: bold;
+          letter-spacing: 0.0625rem;
+          font-size: 0.625rem;
+          width: 150px;
+        }
+
+      }
+
+
+    }
+
+
+    .content-right {
+      width: 75%;
+      height: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      .top-right {
+        width: 100%;
+        height: 70%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        .content-top-left {
+          width: 50%;
+          height: 100%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: space-around;
+          -webkit-justify-content: space-around;
+          -ms-flex-pack: space-around;
+          justify-content: space-around;
+
+          div {
+            height: 45px;
+            width: 80%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: 3%;
+
+
+            div {
+              height: 20px;
+              font-size: 15px;
+              color: rgba(0, 0, 0, 0.2);
+            }
+
+            input {
+              height: 25px;
+              font-family: Roboto, sans-serif;
+              color: black;
+              font-size: 0.96875rem;
+              border: none;
+              background: none;
+              width: 100%;
+              height: 100%;
+              border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+              color: rgba(0, 0, 0, 0.5);
+            }
+          }
+        }
+
+        .content-top-right {
+          width: 50%;
+          height: 100%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: space-around;
+          -webkit-justify-content: space-around;
+          -ms-flex-pack: space-around;
+          justify-content: space-around;
+
+          div {
+            height: 45px;
+            width: 80%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-top: 3%;
+
+            div {
+              height: 20px;
+              font-size: 15px;
+              color: rgba(0, 0, 0, 0.2);
+            }
+
+            input {
+              height: 25px;
+              font-family: Roboto, sans-serif;
+              color: black;
+              font-size: 0.96875rem;
+              border: none;
+              background: none;
+              width: 100%;
+              height: 100%;
+              border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+              color: rgba(0, 0, 0, 0.5);
+            }
+          }
+        }
+      }
+    }
+            .bottom-right{
+          width: 90%;
+          height: 30%;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: space-around;
+          -webkit-justify-content: space-around;
+          -ms-flex-pack: space-around;
+          justify-content: space-around;
+          padding: 20px 0 20px 0;
+
+            p{
+              margin-bottom: 10px;
+              color: rgba(0, 0, 0, 0.2);
+              font-size: 0.96875rem;
+            }
+
+            form{
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+              -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+
+              input{
+                height: 35px;
+                font-family: Roboto,sans-serif;
+                color: black;
+                font-size: 0.96875rem;
+                border: none;
+                border-bottom: 1px rgba(0,0,0,0.2) solid;
+                background: none;
+                width: 85%;
+                color: rgba(0, 0, 0, 0.5);
+              }
+
+              button{
+                border-radius: 1.875rem;
+                border: 1px rgba(0,0,0,0.2) solid;
+                width: 5rem;
+                height: 1.875rem;
+                background: none;
+                cursor: pointer;
+                font-weight: bold;
+                -webkit-letter-spacing: 0.0625rem;
+                -moz-letter-spacing: 0.0625rem;
+                -ms-letter-spacing: 0.0625rem;
+                letter-spacing: 0.0625rem;
+                font-size: 0.625rem;
+              }
+            }
+        }
+  }
+}
+
+
+
